@@ -1,0 +1,5 @@
+E:\C#\xpbudgetter\xpbudgetter\bin\Release\xpbudgetter.exe.config
+E:\C#\xpbudgetter\xpbudgetter\bin\Release\xpbudgetter.exe
+E:\C#\xpbudgetter\xpbudgetter\bin\Release\xpbudgetter.pdb
+E:\C#\xpbudgetter\xpbudgetter\obj\Release\xpbudgetter.exe
+E:\C#\xpbudgetter\xpbudgetter\obj\Release\xpbudgetter.pdb

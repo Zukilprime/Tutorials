@@ -1,0 +1,19 @@
+E:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe.config
+E:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe
+E:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.pdb
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csprojResolveAssemblyReference.cache
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Form1.resources
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Properties.Resources.resources
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csproj.GenerateResource.Cache
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.exe
+E:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.pdb
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csprojResolveAssemblyReference.cache
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Form1.resources
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice_Roller.Properties.Resources.resources
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csproj.GenerateResource.Cache
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.csproj.CoreCompileInputs.cache
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.exe
+G:\C#\Dice Roller\Dice Roller\obj\Debug\Dice Roller.pdb
+G:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe.config
+G:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.exe
+G:\C#\Dice Roller\Dice Roller\bin\Debug\Dice Roller.pdb
