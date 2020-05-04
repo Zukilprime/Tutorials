@@ -3,62 +3,62 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "sword",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Sword.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Sword.png"
     },
     {
       name: "sword",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Sword.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Sword.png"
     },
     {
       name: "hamster",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Hamster.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Hamster.png"
     },
     {
       name: "hamster",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Hamster.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Hamster.png"
     },
     {
       name: "chicken",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Chicken.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Chicken.png"
     },
     {
       name: "chicken",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Chicken.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Chicken.png"
     },
     {
       name: "turtle",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Turtle.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Turtle.png"
     },
     {
       name: "turtle",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Turtle.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Turtle.png"
     },
     {
       name: "pick",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Mining%20Pick.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Mining%20Pick.png"
     },
     {
       name: "pick",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Mining%20Pick.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Mining%20Pick.png"
     },
     {
       name: "mushroom",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Mushroom.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Mushroom.png"
     },
     {
       name: "mushroom",
       img:
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Mushroom.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Mushroom.png"
     }
   ];
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let card = document.createElement("img");
       card.setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Token.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Token.png"
       );
       card.setAttribute("data-id", i);
       card.addEventListener("click", flipCard);
@@ -89,21 +89,21 @@ document.addEventListener("DOMContentLoaded", () => {
     if (optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Token.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Token.png"
       );
       cards[optionTwoId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Token.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Token.png"
       );
     } else if (cardsChosen[0] === cardsChosen[1]) {
       alert("You found a match!");
       cards[optionOneId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Done.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Done.png"
       );
       cards[optionTwoId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Done.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Done.png"
       );
       cards[optionOneId].removeEventListener("click", flipCard);
       cards[optionTwoId].removeEventListener("click", flipCard);
@@ -111,11 +111,11 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       cards[optionOneId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Token.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Token.png"
       );
       cards[optionTwoId].setAttribute(
         "src",
-        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Token.png"
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Token.png"
       );
       alert("Sorry, try again!");
     }
