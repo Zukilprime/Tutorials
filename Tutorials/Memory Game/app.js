@@ -59,6 +59,14 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "mushroom",
       img:
         "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Mushroom.png"
+    },
+    {
+      name: "blue",
+      img: ""
+    },
+    {
+      name: "",
+      img: ""
     }
   ];
 
