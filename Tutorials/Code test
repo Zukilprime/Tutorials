@@ -1,0 +1,8 @@
+function maskify(cc) {
+    if (cc.length >= 5) {
+        let mask = cc.length - 4;
+        let newMask = mask.replace("1", "#");
+        console.log(newMask + cc.substring(cc.length - 4, cc.length))
+    }
+}
+maskify(123456789);

@@ -62,11 +62,63 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       name: "blue",
-      img: ""
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/blue.png"
     },
     {
-      name: "",
-      img: ""
+      name: "blue",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/blue.png"
+    },
+    {
+      name: "red",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Red.png"
+    },
+    {
+      name: "red",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/Red.png"
+    },
+    {
+      name: "green",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/green.png"
+    },
+    {
+      name: "green",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/green.png"
+    },
+    {
+      name: "orange",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/orange.png"
+    },
+    {
+      name: "orange",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/orange.png"
+    },
+    {
+      name: "pink",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/pink.png"
+    },
+    {
+      name: "pink",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/pink.png"
+    },
+    {
+      name: "purple",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/purple.png"
+    },
+    {
+      name: "purple",
+      img:
+        "https://raw.githubusercontent.com/Zukilprime/Tutorials/master/Tutorials/Memory%20Game/Images/purple.png"
     }
   ];
 
