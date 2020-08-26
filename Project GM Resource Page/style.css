@@ -6,7 +6,11 @@ html{
     border: 2px black solid;
     display: flex;
     flex-flow: row nowrap;
+    width: 60%;
+    margin: auto;
 }
-#nav>li{
+#nav>p{
     border: solid black 1px;
+    margin: auto;
+    padding: 2px;
 }
