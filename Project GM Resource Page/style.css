@@ -2,6 +2,11 @@ html{
     background-color: tan;
 }
 
+@font-face{
+    font-family: gmFonts;
+    src: url();
+}
+
 #splashpic{
     height: 450px;
     margin: auto;
