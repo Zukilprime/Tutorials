@@ -1,0 +1,12 @@
+html{
+    background-color: tan;
+}
+
+#nav{
+    border: 2px black solid;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#nav>li{
+    border: solid black 1px;
+}
