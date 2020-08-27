@@ -4,38 +4,26 @@ html{
 
 @font-face {
     font-family: 'bree_serifregular';
-    src: url('breeserif-regular-webfont.woff2') format('woff2'),
-         url('breeserif-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    src: url('https://github.com/Zukilprime/Tutorials/blob/master/Project%20GM%20Resource%20Page/Fonts/breeserif-regular-webfont.woff2') format('woff2'),
+         url('https://github.com/Zukilprime/Tutorials/blob/master/Project%20GM%20Resource%20Page/Fonts/breeserif-regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'open_sansregular';
     src: url('opensans-regular-webfont.woff2') format('woff2'),
          url('opensans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
     font-family: 'open_sansbold';
     src: url('opensans-bold-webfont.woff2') format('woff2'),
          url('opensans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
     font-family: 'open_sansitalic';
     src: url('opensans-italic-webfont.woff2') format('woff2'),
          url('opensans-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 #splashpic{
@@ -51,7 +39,6 @@ aside{
     flex-flow: column wrap;
     padding-left: 100px;
     font-size: 1.3em;
-    font-family: 'bree_serifregular'
 }
 
 
