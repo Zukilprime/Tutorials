@@ -2,46 +2,41 @@ html{
     background-color: tan;
 }
 
-@font-face {
-    font-family: 'bree_serifregular';
-    src: url('https://github.com/Zukilprime/Tutorials/blob/master/Project%20GM%20Resource%20Page/Fonts/breeserif-regular-webfont.woff2') format('woff2'),
-         url('https://github.com/Zukilprime/Tutorials/blob/master/Project%20GM%20Resource%20Page/Fonts/breeserif-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('opensans-regular-webfont.woff2') format('woff2'),
-         url('opensans-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'open_sansbold';
-    src: url('opensans-bold-webfont.woff2') format('woff2'),
-         url('opensans-bold-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'open_sansitalic';
-    src: url('opensans-italic-webfont.woff2') format('woff2'),
-         url('opensans-italic-webfont.woff') format('woff');
-}
 
 #splashpic{
-    height: 450px;
+    height: 300px;
     margin: auto;
     background-repeat: no-repeat;
     background-position: center;
     margin: 5px;
 }
-aside{
+
+#aside_left{
     float: left;
     display: flex;
     flex-flow: column wrap;
     padding-left: 100px;
-    font-size: 1.3em;
+    padding-top: 50px;
+    font-size: 2em;
+    /*font-family: 'Lobster', cursive*/
+    font-family: 'Caveat', cursive;
 }
 
+#aside_right{
+    float: right;
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-size: 2em;
+    /*font-family: 'Lobster', cursive*/
+    font-family: 'Caveat', cursive;
+}
 
+aside>h1{
+    padding: 0px;
+    margin: 10px;
+}
 
 #nav{
     border: 2px black solid;
@@ -52,7 +47,47 @@ aside{
     margin: auto;
     padding: 10px;
 }
+
 #nav>p{
     margin: auto;
     padding: 2px;
+    font-size: 1.2em;
+}
+
+#nav>p:hover{
+    background-color: peru;
+    border: peru 0px solid;
+    border-radius: 10px;
+}
+
+#welcome>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#welcome>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+#top-divider{
+    padding: 20px;
+}
+
+#bottom-divider{
+    padding: 20px;
+}
+
+hr{
+    border: black 2px solid;
+    margin-top: 50px;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive
 }
